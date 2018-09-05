@@ -120,6 +120,7 @@
       <excludeFolder url="file://$MODULE_DIR$/components" />
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
     </content>
     <orderEntry type="jdk" jdkName="rbenv: 2.4.3" jdkType="RUBY_SDK" />
