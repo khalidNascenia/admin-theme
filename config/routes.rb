@@ -6,5 +6,14 @@ Rails.application.routes.draw do
   get '/users/sign_in', to: 'devise/sessions#new'
 
   root to: 'home#index'
-  
+
+  resources :home do
+    collection do
+      get :dashboard2
+      get :buttons
+      get :typography
+      get :pages_profile
+    end
+  end
+
 end

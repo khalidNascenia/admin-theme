@@ -28,3 +28,24 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore ide config
+/.idea
+
+# Ignore database.yml
+config/database.yml
+
+# Ignore rails default testing
+test
+
+# Ignore vendor/bundle
+vendor/bundle
+
+# Ignore .ruby-gemset
+.ruby-gemset
+
+# Ignore .ruby-version
+.ruby-version
+
+#Ignore vendor/ruby/
+vendor/ruby/

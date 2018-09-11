@@ -6,4 +6,20 @@ class HomeController < ApplicationController
       format.html
     end
   end
+
+  def dashboard2
+
+  end
+
+  def buttons
+
+  end
+
+  def typography
+
+  end
+
+  def pages_profile
+
+  end
 end

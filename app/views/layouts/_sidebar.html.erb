@@ -15,17 +15,19 @@
             <i class="ion-md-speedometer"></i><span class="badge badge-success float-right">2</span> <span> Dashboard </span>
           </a>
           <ul class="nav-second-level" aria-expanded=false>
-            <li><a href="index.html">Dashboard 1</a></li>
-            <li><a href="dashboard-2.html">Dashboard 2</a></li>
+            <!--            <li><a href="index.html">Dashboard 1</a></li>-->
+            <li><%= link_to 'Dashboard 1', home_index_path %>></li>
+            <li><%= link_to 'Dashboard 2', dashboard2_home_index_path %>></li>
+            <!--            <li><a href="dashboard-2.html">Dashboard 2</a></li>-->
           </ul>
         </li>
         <li>
           <a href="javascript: void(0);"><i class="ion-md-basket"></i> <span> UI Elements </span> <span class="menu-arrow"></span></a>
           <ul class="nav-second-level" aria-expanded="false">
-            <li><a href="ui-typography.html">Typography</a></li>
-            <li><a href="ui-buttons.html">Buttons</a></li>
+            <li><%= link_to 'Typography', typography_home_index_path %>></li>
+            <li><%= link_to 'Buttons', buttons_home_index_path %>></li>
             <li><a href="ui-fontawesome.html">Font Awesome Icons</a></li>
-            <li><a href="ui-materialdesign.html">Material Design Icons</a></li>
+            <li><a href="ui-materialdesign.html">Mateyrial Design Icons</a></li>
             <li><a href="ui-ionicons.html">Ion Icons</a></li>
             <li><a href="ui-cards.html">Cards</a></li>
             <li><a href="ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
@@ -108,7 +110,7 @@
         <li>
           <a href="javascript: void(0);"><i class="ion-md-copy"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
           <ul class="nav-second-level" aria-expanded="false">
-            <li><a href="pages-profile.html">Profile</a></li>
+            <li><%= link_to 'Profile', pages_profile_home_index_path %>></li>
             <li><a href="pages-timeline.html">Timeline</a></li>
             <li><a href="pages-invoice.html">Invoice</a></li>
             <li><a href="pages-contact.html">Contact-list</a></li>
