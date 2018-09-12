@@ -22,4 +22,16 @@ class HomeController < ApplicationController
   def pages_profile
 
   end
+
+  def pages_timeline
+
+  end
+
+  def pages_invoice
+
+  end
+
+  def pages_contact
+
+  end
 end

@@ -13,6 +13,9 @@ Rails.application.routes.draw do
       get :buttons
       get :typography
       get :pages_profile
+      get :pages_timeline
+      get :pages_invoice
+      get :pages_contact
     end
   end
 
