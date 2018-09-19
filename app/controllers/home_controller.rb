@@ -34,4 +34,8 @@ class HomeController < ApplicationController
   def pages_contact
 
   end
+
+  def pages_login
+
+  end
 end

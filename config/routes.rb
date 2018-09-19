@@ -16,6 +16,7 @@ Rails.application.routes.draw do
       get :pages_timeline
       get :pages_invoice
       get :pages_contact
+      get :pages_login
     end
   end
 
