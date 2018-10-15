@@ -10,13 +10,28 @@ Rails.application.routes.draw do
   resources :home do
     collection do
       get :dashboard2
-      get :buttons
+    end
+  end
+  resources :ui_elements do
+    collection do
       get :typography
-      get :pages_profile
-      get :pages_timeline
+      get :buttons
+    end
+  end
+  resources :pages do
+    collection do
+      get :profile
+      get :timeline
       get :pages_invoice
       get :pages_contact
-      get :pages_login
+      get :login
+      get :pages_register
+    end
+  end
+  resources :components do
+    collection do
+      get :grids
+      get :portlets
     end
   end
 

@@ -10,32 +10,4 @@ class HomeController < ApplicationController
   def dashboard2
 
   end
-
-  def buttons
-
-  end
-
-  def typography
-
-  end
-
-  def pages_profile
-
-  end
-
-  def pages_timeline
-
-  end
-
-  def pages_invoice
-
-  end
-
-  def pages_contact
-
-  end
-
-  def pages_login
-
-  end
 end
