@@ -16,6 +16,11 @@ Rails.application.routes.draw do
     collection do
       get :typography
       get :buttons
+      get :ui_fontAwsome
+      get :material_design_icon
+      get :ion_icons
+      get :ui_cards
+      get :tab_accordian
     end
   end
   resources :pages do
