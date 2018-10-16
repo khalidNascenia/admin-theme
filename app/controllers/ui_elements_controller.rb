@@ -26,4 +26,24 @@ class UiElementsController < ApplicationController
   def tab_accordian
 
   end
+
+  def ui_modals
+
+  end
+
+  def ui_bootstrap
+
+  end
+
+  def progress_bar
+
+  end
+
+  def notifications
+
+  end
+
+  def sweet_alert
+
+  end
 end

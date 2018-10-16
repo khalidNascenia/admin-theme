@@ -21,6 +21,11 @@ Rails.application.routes.draw do
       get :ion_icons
       get :ui_cards
       get :tab_accordian
+      get :ui_modals
+      get :ui_bootstrap
+      get :progress_bar
+      get :notifications
+      get :sweet_alert
     end
   end
   resources :pages do
