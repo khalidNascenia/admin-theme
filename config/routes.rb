@@ -42,6 +42,10 @@ Rails.application.routes.draw do
     collection do
       get :grids
       get :portlets
+      get :widgets
+      get :range_slider
+      get :nestable
+      get :calendar
     end
   end
 

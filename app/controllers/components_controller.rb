@@ -7,4 +7,20 @@ class ComponentsController < ApplicationController
 
   end
 
+  def calendar
+
+  end
+
+  def nestable
+
+  end
+
+  def range_slider
+
+  end
+
+  def widgets
+
+  end
+
 end
