@@ -1,0 +1,3 @@
+class UiFormsController < ApplicationController
+
+end
