@@ -1,0 +1,134 @@
+<!-- ============================================================== -->
+<!-- Start right Content here -->
+<!-- ============================================================== -->
+<div class="content-page">
+  <!-- Start content -->
+  <div class="content">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="page-title-box">
+            <h4 class="page-title float-left">Code Editors</h4>
+
+            <ol class="breadcrumb float-right">
+              <li class="breadcrumb-item"><a href="#">Velonic</a></li>
+              <li class="breadcrumb-item"><a href="#">Forms</a></li>
+              <li class="breadcrumb-item active">Code Editors</li>
+            </ol>
+
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+
+
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <h4 class="font-18 mt-0">XML/HTML Mode</h4>
+              <small>The XML mode supports two configuration parameters <code>htmlMode</code> and <code>alignCDATA</code>. To learn more visit <a target="_blank" href="http://codemirror.net/mode/xml/index.html">here</a>. To view more languages visit <a href="http://codemirror.net/mode/index.html" target="_blank">here</a></small>
+            </div>
+            <div class="panel-body p-0">
+
+        <textarea id="code" name="code">
+            &lt;html&gt;
+                &lt;!-- this is a comment --&gt;
+                &lt;head&gt;
+                &lt;title&gt;HTML Example&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                The indentation tries to be &lt;em&gt;somewhat &amp;quot;do what
+                I mean&amp;quot;&lt;/em&gt;... but might not match your style.
+                &lt;/body&gt;
+            &lt;/html&gt;
+        </textarea>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End row -->
+
+
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <h4 class="font-18 mt-0">Code Editor Theme</h4>
+              <small class="text-muted">The code editor comes with different themes such as below. You can view more theme demos from the CodeMirror site by going here</small>
+            </div>
+            <div class="panel-body p-0 code-edit-wrap">
+            <textarea id="code2" name="code">
+                function findSequence(goal) {
+                    function find(start, history) {
+                    if (start == goal)
+                        return history;
+                    else if (start > goal)
+                        return null;
+                    else
+                        return find(start + 5, "(" + history + " + 5)") ||
+                                find(start * 3, "(" + history + " * 3)");
+                    }
+                    return find(1, "1");
+                }
+            </textarea>
+
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End row -->
+
+
+
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <h4 class="mt-0 font-18">AutoFormatting Of Code</h4>
+              <small>Select a piece of code and click one of the links below to apply automatic formatting to the selected text or comment/uncomment the selected text. Note that the formatting behavior depends on the current block's mode. </small>
+              <div class="m-t-10"></div>
+              <button class="btn btn-primary btn-sm m-r-5 autoformat">Autoformat Selected</button>
+              <button class="btn btn-primary btn-sm m-r-5 commentbtn">Comment Selected</button>
+              <button class="btn btn-primary btn-sm uncomment">Uncommment Selected</button>
+            </div><!-- panel-heading -->
+            <div class="panel-body p-0 code-edit-wrap">
+<textarea id="code3" name="code"><script> function (s,e){ for(var i=0; i < 1; i++) test("test();a=1");} </script>
+<script>
+    function test(c){  for (var i = 0; i < 10; i++){              process("a.b();c = null;", 300);}
+    }
+</script>
+<table><tr><td>test 1</td></tr><tr><td>test 2</td></tr></table>
+<script> function test() { return 1;} </script>
+<style> .test { font-size: medium; font-family: monospace; }
+</style></textarea>
+            </div><!-- panel-body -->
+          </div><!-- panel -->
+        </div>
+
+
+      </div> <!-- End row -->
+
+
+
+    </div> <!-- container -->
+
+  </div> <!-- content -->
+
+  <footer class="footer text-right">
+    2015 - 2018 © Velonic - Coderthemes.com
+  </footer>
+
+</div>
+
+
+<!-- ============================================================== -->
+<!-- End Right content here -->
+<!-- ============================================================== -->

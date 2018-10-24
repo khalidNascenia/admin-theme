@@ -48,5 +48,18 @@ Rails.application.routes.draw do
       get :calendar
     end
   end
+  resources :ui_forms do
+    collection do
+      get :foms_validation
+      get :forms_advanced
+      get :forms_code_editor
+      get :forms_crop_image
+      get :forms_editor
+      get :forms_elements
+      get :forms_upload
+      get :forms_wizard
+      get :forms_xeditable
+    end
+  end
 
 end
