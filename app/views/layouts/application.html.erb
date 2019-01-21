@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>AdminTheme</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | Template</title>
+  <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+  <meta content="Nascenia" name="Mithun" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
 
-  <body>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+</head>
+
+<body>
+  <!-- Begin page -->
+  <div id="wrapper">
+    <%= render partial: 'layouts/header' %>
+    <%= render partial: 'layouts/sidebar' %>
     <%= yield %>
-  </body>
+  </div>
+  <%= javascript_include_tag 'application' %>
+</body>
 </html>
